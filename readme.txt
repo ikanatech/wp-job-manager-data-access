@@ -15,4 +15,5 @@ This plugin was created by combining methods from Astondify\'s Listify and Jobif
 3. Most plugins that you will be using this will simply need to call on \"jobs\" data in some cases it will showup as \"job_listings\"
 
 == Changelog ==
+0.0.2 - Corrected Errors: Changed top of plugin file, fixed line overrun from copy pasting from terminal
 0.0.1 - Brand new plugin 
