@@ -37,7 +37,7 @@ function job_manager_output_jobs_defaults( $default ) {
         }
 
         if ( isset( $_GET[ 'search_categories' ] ) ) {
-                $category = get_term_by( 'ID', absint( $_GET[ 'search_categories' ] ), 'job_listing_cat$
+                $category = get_term_by( 'ID', absint( $_GET[ 'search_categories' ] ), 'job_listing_category' );
                 $default[ 'show_categories' ] = true;
                 $default[ 'categories' ] = $_GET[ 'search_categories' ];
         }
