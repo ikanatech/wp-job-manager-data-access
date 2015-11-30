@@ -1,8 +1,16 @@
 <?php
-
-/*******************
-/       Some stuff for trying to "free" jobs
-********************/
+/**
+ * @package WPJM Data Access
+ * @version 0.0.1
+*/
+/*
+Plugin Name: WPJM Data Access
+Plugin URI: http://hektechnologies.com/plugins/wpjmda
+Description: Plugin to free jobs data
+Author: Spencer Heckathorn (borrowed the start from Astoundify)
+Version: 0.0.1
+Author URI: http://spencerheckathorn.com/
+*/
 
 add_filter( 'job_manager_output_jobs_defaults', array( $this, 'job_manager_output_jobs_defaults' ) );
 function job_manager_output_jobs_defaults( $default ) {
